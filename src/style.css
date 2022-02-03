@@ -1,0 +1,77 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+
+#header h1
+{
+    display:inline-block;
+    margin:50px 15px ;
+}
+
+#header li
+{
+    float:right;
+    list-style:none;
+    font-size:18px;
+    margin:45px 35px;
+}
+
+#container1
+{
+    background-color:rgb(230, 223, 223);
+    padding:40px 20px;
+}
+
+#container1 h2
+{
+    margin:10px;
+    font-size:35px;
+}
+
+#container1 p
+{
+    width:15%;
+    margin:0px 10px;
+}
+
+#container1 button
+{
+    padding:5px;
+    margin:10px;
+    border-radius:5px;
+}
+
+.container2
+{
+    padding:20px 40px;
+    display:inline-block;
+    width:25%;
+    margin:0px 10px;
+}
+
+.container2 div
+{
+    width:350px;
+    height:150px;
+    background-color:rgb(233, 164, 139);
+}
+
+.container2 h2,.container2 p
+{
+    text-align:center;
+    padding:10px 0px;
+}
+
+.container2 p
+{
+    padding:2px 0px;
+}
+
+.container2 a
+{
+    margin:0px 30%;
+    padding:4% 1%;
+}
