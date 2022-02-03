@@ -51,7 +51,41 @@
     width:25%;
     margin:0px 10px;
 }
+@media screen and (max-width:800px)
+{
+    .container2
+    {
+        width:50%;
+    }
+    #container1 p
+    {
+        width:40%;
+    }
+    
+    #container3
+    {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 
+    #container3 input[type="submit"]
+    {
+        border:2px solid black;
+        margin:8px 60px;
+    }
+    .container2 h2,.container2 p
+    {
+        margin:0px 35px;
+        width:300px;
+    }
+    .container2 a
+    {
+        text-align: center;
+        width:50%;
+    }
+}
 .container2 div
 {
     width:350px;
@@ -72,8 +106,9 @@
 
 .container2 a
 {
-    margin:0px 30%;
-    padding:4% 1%;
+    display:block;
+    margin:0px 100px;
+    padding:10px 20px;
 }
 
 #container3 
@@ -124,4 +159,6 @@
 {
     float:right;
 }
+
+
 
